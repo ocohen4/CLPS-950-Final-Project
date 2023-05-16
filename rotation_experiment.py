@@ -10,6 +10,7 @@ If you publish work using this script the most relevant publication is:
         https://doi.org/10.3758/s13428-018-01193-y
 
 """
+#LIV WROTE AND DEBUGGED, 16 hours total
 
 # --- Import packages ---
 from matplotlib import pyplot as plt
