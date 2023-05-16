@@ -1,3 +1,6 @@
+### Graphical User Interface
+### all coded and debugged together with help from Amanda, 8 hours
+
 import psychopy
 import numpy as np
 import tkinter as tk
@@ -6,13 +9,13 @@ import os
 import subprocess
 
 def run_experiment1():
-    subprocess.call(["python", "LDT_results!.py"]) #make sure your file names match!
+    subprocess.call(["python", "LDT_results!.py"]) #calling Maizy's experiment
 
 def run_experiment2():
-    subprocess.call(["python", "rotation_experiment.py"]) #make sure your file names match!
+    subprocess.call(["python", "rotation_experiment.py"]) # calling Liv's experiment
 
 def run_experiment3():
-    subprocess.call(["python", "stroop_experiment_final.py"]) #make sure your file names match!
+    subprocess.call(["python", "stroop_experiment_final.py"]) #calling Sophia's experiment
 
 root = tk.Tk()
 root.title("PsychoPy Experiments")
