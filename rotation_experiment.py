@@ -2449,7 +2449,7 @@ if eyetracker:
 thisExp.abort()  # or data files will save again on exit
 
 
-#input filename base (without extension)
+#creates a scatterplot of degrees rotated vs. seconds to click
 def plot_results(name):
     print(name)
     data = []
